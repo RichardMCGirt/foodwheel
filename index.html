@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Spinner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="arrow"></div>
+    <canvas id="wheelCanvas" width="500" height="500"></canvas>
+    <div id="stand"></div>
+    <button id="spinButton">Spin the Wheel</button>
+    <div id="selectedRestaurant"></div>
+
+    <!-- Restaurant Management Section -->
+    <div class="restaurant-management">
+      <h3>Manage Restaurants</h3>
+      <input type="text" id="restaurantInput" placeholder="Restaurant Name" />
+      <button id="addRestaurant">Add</button>
+      <button id="editRestaurant">Edit</button>
+      <button id="removeRestaurant">Remove</button>
+      <ul id="restaurantList"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
